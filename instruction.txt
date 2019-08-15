@@ -1,0 +1,14 @@
+#Для запуска тестов необходимо ввести команду pytest -s -v в директориях с тестами.
+При запуске тестов из корневой папки возникают конфликты и тесты прогнать не получится!
+
+Команды для отдельных API
+    - для запуска тестов для api - https://dog.ceo/dog-api/ надо набрать в консоли - pytest Test/Api_dogs_test -s -v
+    - для запуска тестов для api - https://www.openbrewerydb.org/ набираем -  pytest Test/Api_brewery -s -v
+    - для запуска тестов для api - https://jsonplaceholder.typicode.com/ набираем - pytest Test/Api_placeholder -s -v
+    - для проверки тестовой функции, которая будет проверять ответ переданного через парамтер url на 200 набираем -
+    pytest Test/Parser/ --url={любой url} -s, по умолчанию ya.ru
+
+
+
+
+
